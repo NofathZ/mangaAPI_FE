@@ -15,7 +15,7 @@
         <span class="navbar-text">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <button
+              <button v-on:click="logout()"
                 class="btn btn-danger"
                 >Logout</button>
             </li>
